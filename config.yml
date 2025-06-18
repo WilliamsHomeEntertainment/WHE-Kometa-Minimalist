@@ -445,35 +445,35 @@ settings:
   #changes: notifiarr
   #delete: notifiarr
 plex:                            # Can be individually specified per library as well; REQUIRED for the script to run
-  url: http://192.168.1.16:32400    #fill in your IP address here ex 192.168.1.2 or 127.0.0.2 or whatever ip you use to access plex locally. 
-  token: xxxxxxxxxxxxxxxxxxxxxxxxxx
+  url: http://192.168.99.35:32400    #fill in your IP address here ex 192.168.1.2 or 127.0.0.2 or whatever ip you use to access plex locally. 
+  token: _‎F3VgHKzF6c61taqFuYH
   timeout: 60
   clean_bundles: true
   empty_trash: true
   optimize: true
   db_cache: 1024
   verify_ssl: 
-#notifiarr:
-  #apikey: xxxxxxxxxxxxxxxxxxxxxxxxxx
+notifiarr:
+  apikey: 787bcdd6-dc68-4656-8999-ae951c862c37
 tmdb:                            # REQUIRED for the script to run you need to create an account on tmdb.com https://kometa.wiki/en/latest/config/tmdb/
-  apikey: xxxxxxxxxxxxxxxxxxxxxxxxxx
+  apikey: 70c5bbc8137e617123cf8adc7fe086b9
   language: en
   region: US                     # 	ISO 3166-1 Code of the User Region for use with Other TMDb Builders https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes
   cache_expiration: 60
-trakt:                           # Some collections (Star Trek) will pull from trakt and will require you to create an account https://kometa.wiki/en/latest/config/trakt/
-  client_id: ####################
-  client_secret: ####################
-  pin:
-  authorization:
+#trakt:                           # Some collections (Star Trek) will pull from trakt and will require you to create an account https://kometa.wiki/en/latest/config/trakt/
+ # client_id: ####################
+ # client_secret: ####################
+ # pin:
+ # authorization:
     # everything below is autofilled by the script
-    access_token:
-    token_type:
-    expires_in:
-    refresh_token:
-    scope: public
-    created_at:
+  #  access_token:
+  #  token_type:
+  #  expires_in:
+  #  refresh_token:
+  #  scope: public
+  #  created_at:
 mdblist:                         # REQUIRED for the script to run you need to create an account on mdblist.com, you can create an account with trakt and link it. https://kometa.wiki/en/latest/config/mdblist/
-  apikey: xxxxxxxxxxxxxxxxxxxxxxxxxx              
+  apikey: psymniazby56qouxfrpvj64ag
   cache_expiration: 60
 
   
