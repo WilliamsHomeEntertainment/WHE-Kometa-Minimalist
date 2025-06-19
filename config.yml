@@ -7,7 +7,7 @@
 ## This version includes Notifiarr settings and webhook 
 ## TMDB and mdblist accounts are required for this scrypt to work. Fill in your apikeys where there are XXXXXXXXXXXXXXXXXXX
 
-libraries:                       # This is called out once within the config.yml file
+libraries:                      # This is called out once within the config.yml file
 
 ############################  
 ########## MOVIES ##########
