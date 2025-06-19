@@ -447,8 +447,8 @@ settings:
   #changes: notifiarr
   #delete: notifiarr
 plex:                            # Can be individually specified per library as well; REQUIRED for the script to run
-  url: http://192.168.99.35:32400    #fill in your IP address here ex 192.168.1.2 or 127.0.0.2 or whatever ip you use to access plex locally. 
-  token: _‎F3VgHKzF6c61taqFuYH
+  url: {{KOMETA_VAR_PLEX_URL}}    #fill in your IP address here ex 192.168.1.2 or 127.0.0.2 or whatever ip you use to access plex locally. 
+  token: {{KOMETA_VAR_PLEX_API_TOKEN}}
   timeout: 60
   clean_bundles: true
   empty_trash: true
@@ -456,9 +456,9 @@ plex:                            # Can be individually specified per library as 
   db_cache: 1024
   verify_ssl: 
 notifiarr:
-  apikey: 787bcdd6-dc68-4656-8999-ae951c862c37
+  apikey: {{KOMETA_VAR_NOTIFIARR_API_KEY}}
 tmdb:                            # REQUIRED for the script to run you need to create an account on tmdb.com https://kometa.wiki/en/latest/config/tmdb/
-  apikey: 70c5bbc8137e617123cf8adc7fe086b9
+  apikey: {{KOMETA_VAR_TMDB_API_TOKEN}}
   language: en
   region: US                     # 	ISO 3166-1 Code of the User Region for use with Other TMDb Builders https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes
   cache_expiration: 60
@@ -475,11 +475,11 @@ tmdb:                            # REQUIRED for the script to run you need to cr
   #  scope: public
   #  created_at:
 mdblist:                         # REQUIRED for the script to run you need to create an account on mdblist.com, you can create an account with trakt and link it. https://kometa.wiki/en/latest/config/mdblist/
-  apikey: psymniazby56qouxfrpvj64ag
+  apikey: {{KOMETA_VAR_MDBLIST_API_KEY}}
   cache_expiration: 60
 tautulli:                            # Can be individually specified per library as well
-  url: http://192.168.99.33:8181
-  apikey: 2e4be55de3f349b98ca54cc5dc72a66e  
+  url: {{KOMETA_VAR_TAUTULLI_URL}}
+  apikey: {{KOMETA_VAR_TAUTULLI_API_KEY}}
   
   
 
