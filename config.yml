@@ -51,6 +51,7 @@ libraries:                      # This is called out once within the config.yml 
         - xmen    #X-Men Universe
         #visible_home_customnamehere: true  #This will show a collection on home screen in Plex, this case its my custom list from above
     - file: config/Movie Collections.yml #This pulls the "Movie Collections.yml" file and makes a custom Collections
+    - file: config/holiday.yml #This pulls the "holiday.yml" file and makes a custom Collections
 
 ########## MOVIE OVERLAYS ##########    
     overlay_files:
