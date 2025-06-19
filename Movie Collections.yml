@@ -37,4 +37,4 @@ dynamic_collections:
   TMDb Collections:          # This name is the mapping name
     template: collection
     type: tmdb_collection
-    #remove_suffix: "Collection"  ### removes the word "Collection" from the title
+    remove_suffix: "Collection"  ### removes the word "Collection" from the title
