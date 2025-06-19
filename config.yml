@@ -14,6 +14,7 @@ libraries:                      # This is called out once within the config.yml 
 ############################ 
   
   Movies:  ################# THIS IS THE NAME OF YOUR "MOVIE" LIBRARY IN PLEX. IF YOUR MOVIE LIBRARY IS NAMED DIFFERENTLY THEN COPY THAT NAME HERE.
+    #schedule: weekly  #6/19 not added to production
     report_path: config/missing/Movies_report.yml 
     #reset_overlays: plex      # reset overlays to plex or tmdb
     remove_overlays: false     # Set this to true to remove all overlays
@@ -124,7 +125,8 @@ libraries:                      # This is called out once within the config.yml 
 ########## TV SHOWS ##########
 ##############################
 
-  TV Shows: ########################### THIS IS THE NAME OF YOUR "TV SHOW" LIBRARY IN PLEX. IF YOUR TV LIBRARY IS NAMED DIFFERENTLY THEN COPY THAT NAME HERE. 
+  TV Shows: ########################### THIS IS THE NAME OF YOUR "TV SHOW" LIBRARY IN PLEX. IF YOUR TV LIBRARY IS NAMED DIFFERENTLY THEN COPY THAT NAME HERE.
+    #schedule: weekly  #6/19 not added to production
     report_path: config/missing/TV_report.yml
     #- reset_overlays: plex      #reset overlays to plex or tmdb
     remove_overlays: false     # Set this to true to remove all overlays
