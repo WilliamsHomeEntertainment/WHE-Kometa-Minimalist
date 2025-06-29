@@ -1,0 +1,45 @@
+collections:
+  Award-Winning Series:
+    minimum_items: 3
+    collection_mode: hide
+    plex_search:
+      all:
+        label: Award-Winning
+
+  Sci-Fi Essentials:
+    minimum_items: 3
+    collection_mode: hide
+    plex_search:
+      all:
+        genre: Science Fiction
+
+  Classic Sitcoms:
+    minimum_items: 3
+    collection_mode: hide
+    plex_search:
+      all:
+        genre: Comedy
+        decade: 1980s
+
+  Binge-Worthy Dramas:
+    minimum_items: 3
+    collection_mode: hide
+    plex_search:
+      all:
+        genre: Drama
+
+  Reality & Competition:
+    minimum_items: 3
+    collection_mode: hide
+    plex_search:
+      all:
+        genre: Reality
+
+  Crime & Mystery:
+    minimum_items: 3
+    collection_mode: hide
+    plex_search:
+      all:
+        genre:
+          - Crime
+          - Mystery
