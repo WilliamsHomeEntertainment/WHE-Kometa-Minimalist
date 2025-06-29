@@ -34,7 +34,7 @@ libraries:                      # This is called out once within the config.yml 
         - fast    #Fast & Furious
         - marvel  #In Association With Marvel
         #- mcu     #Marvel Cinematic Universe
-        - middle  #Middle Earth
+        # - middle  #Middle Earth
         - mummy   #The Mummy Universe
         - rocky   #Rocky / Creed
         #- trek   #Star Trek
