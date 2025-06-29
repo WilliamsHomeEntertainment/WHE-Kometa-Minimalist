@@ -225,6 +225,7 @@ libraries:                      # This is called out once within the config.yml 
         - amazon
         #- showtime
         sort_by: title.asc 
+    - file: config/TV Collections.yml #This pulls the "TV Collections.yml" file and makes a custom Collections
        
 
 ########## TV SHOW OVERLAYS ##########
